@@ -5,16 +5,27 @@ body {
 }
 
 header {
-  text-align: center;
+  display: flex; /* عشان نحط اللوجو والنص جنب بعض */
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* مسافة بين اللوجو والعنوان */
   padding: 20px;
   background-color: #110f0f;
   border-bottom: 2px solid #ddd;
 }
+
+header img {
+  height: 45px; /* حجم اللوجو */
+  width: auto;
+}
+
 h1 {
   color: white;
-  font-family: poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: xx-large;
+  margin: 0; /* إزالة أي مسافات فوق أو تحت */
 }
+
 .menu-button {
   display: inline-block;
   background-color: #141517; /* Blue color */

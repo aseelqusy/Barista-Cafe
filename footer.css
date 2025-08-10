@@ -14,12 +14,20 @@
     margin: auto;
 }
 
+footer img {
+  height: 45px; /* حجم اللوجو */
+  width: auto;
+}
+
 .footer-about {
+    display: flex;
     background: none;
     border: none;
     padding: 0;
     margin-bottom: 20px;
 }
+
+
 
 .footer-middle {
     display: flex;
